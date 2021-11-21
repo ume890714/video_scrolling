@@ -1,0 +1,46 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#video {
+    position: fixed;
+    height: 115vh;
+    z-index: -1;
+    top: -5vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.t1 {
+    padding: 10px 20px;
+    position: relative;
+    display: inline-block;
+    top: 500vh;
+    /* 	left:50vw; */
+    background-color: white;
+    font-weight: 600;
+}
+
+#title {
+    position: relative;
+    top: 50vh;
+    transform: translateY(-50%);
+}
+
+.t1 {
+    left: 45vw;
+}
+
+.t2 {
+    left: 30vw;
+}
+
+.t3 {
+    left: 55vw;
+}
